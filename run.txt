@@ -1,0 +1,15 @@
+-n 1224 -b 240 -d 1000 --triples_are_mapped -node_feat_path ./data/node_features/fb15k-237  -g 8 -a 1.0 -adv -lr .0005 --max_steps 180000 --test_batch_size 4 --cuda --valid_steps 10000 --log_steps 10000 --do_valid
+
+-n 624  -b 512 -d 400 --triples_are_mapped -node_feat_path ./data/node_features/wn18rr -g 4 -a 2.0 -adv -lr 0.0005 --max_steps 150000 --test_batch_size 4 --cuda --valid_steps 10000 --log_steps 10000 --do_valid
+
+-n 1224 -b 240 -d 1000 --triples_are_mapped -node_feat_path ./data/node_features/fb15k-237  -g 8 -a 1.0 -adv -lr .0005 --max_steps 200000 --test_batch_size 4 --cuda --valid_steps 10000 --log_steps 10000 --do_valid
+-n 1224 -b 240 -d 1000 --triples_are_mapped -node_feat_path ./data/node_features/fb15k-237  -g 8 -a 1.0 -adv -lr .0005 --max_steps 220000 --test_batch_size 4 --cuda --valid_steps 10000 --log_steps 10000 --do_valid
+
+-n 624  -b 512 -d 400 --triples_are_mapped -node_feat_path ./data/node_features/wn18rr -g 4 -a 2.0 -adv -lr 0.0005 --max_steps 150000 --test_batch_size 4 --cuda --valid_steps 10000 --log_steps 10000 --do_valid
+-n 624  -b 512 -d 400 --triples_are_mapped -node_feat_path ./data/node_features/wn18rr -g 4 -a 2.0 -adv -lr 0.0005 --max_steps 180000 --test_batch_size 4 --cuda --valid_steps 10000 --log_steps 10000 --do_valid
+
+-n 1224 -b 240 -d 1000 --triples_are_mapped -node_feat_path ./data/node_features/fb15k-237  -g 9 -a 1.0 -adv -lr .0005 --max_steps 180000 --test_batch_size 4 --cuda --valid_steps 10000 --log_steps 10000 --do_valid
+
+-n 624  -b 512 -d 400 --triples_are_mapped -node_feat_path ./data/node_features/wn18rr -g 5 -a 2.0 -adv -lr 0.0005 --max_steps 150000 --test_batch_size 4 --cuda --valid_steps 10000 --log_steps 10000 --do_valid
+
+-n 624  -b 512 -d 400 --triples_are_mapped -node_feat_path ./data/node_features/wn18rr -g 4 -a 0.5 -adv -lr 0.0005 --max_steps 150000 --test_batch_size 4 --cuda --valid_steps 10000 --log_steps 10000 --do_valid
